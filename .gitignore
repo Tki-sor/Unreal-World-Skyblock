@@ -1,18 +1,27 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+#Whitelist
+/*
+!/.minecraft
+/.minecraft/*
+/.minecraft/mods
 
-# Other files and folders
-.settings/
+#main
+!/更新记录.txt
+!/version.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+#repo stuff
+!/.github
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#minecrft
+!/.minecraft/fontfiles
+!/.minecraft/oresources
+!/.minecraft/resourcepacks
+!/.minecraft/resources
+!/.minecraft/scripts
+
+!/.minecraft/nu-whitelist.txt
+
+#minecraft/configs
+!/.minecraft/config
+/.minecraft/config/*
+
+#other files
