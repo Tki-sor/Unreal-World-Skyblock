@@ -1,0 +1,10 @@
+//设置打印报告
+printDocumentation(false)
+
+//世界类型固定为默认
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+basicSkyIslands = registerPreset("海洋：一个孤岛", "images/ocean_island", "将在一个小岛上生存下去.")
+basicSkyIslands.registerDimension(0, "examples/ocean_island")
+basicSkyIslands.disableNetherPortal()

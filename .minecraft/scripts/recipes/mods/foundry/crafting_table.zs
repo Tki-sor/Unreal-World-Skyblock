@@ -11,3 +11,9 @@ RecipeUtils.recipeTweak(true, <foundry:burner_heater>,
 [[<ore:plateClay>, <ore:plateClay>, <ore:plateClay>],
 [<ore:plateClay>, <foundry:componentblock:2>, <ore:plateClay>],
 [<ore:plateClay>, <skyresources:dirtfurnace>, <ore:plateClay>]]);
+
+#基础熔炼坩埚
+RecipeUtils.recipeTweak(true, <foundry:machine>,
+[[<ore:plateClay>, <ceramics:channel>, <ore:plateClay>],
+[<ore:plateClay>, <foundry:componentblock:2>, <ore:plateClay>],
+[<ore:plateClay>, <ore:plateClay>, <ore:plateClay>]]);
