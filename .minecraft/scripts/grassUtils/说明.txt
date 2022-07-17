@@ -1,0 +1,5 @@
+本grassUtils基于友谊(friendlyhj)的1.0.5版本经过修改
+项目地址:https://github.com/friendlyhj/GrassUtils
+
+修改内容如下:
+    -removeAllRecipe同时会将物品放进阶段"ban"   -需要"ItemStage"且必选
