@@ -1,0 +1,395 @@
+{
+  "minecraft:leaves:15": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.04
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]},NA:0b}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.005
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.001,
+      "fortuneChance": 0.002
+    }
+  ],
+  "exnihilocreatio:block_endstone_crushed:0": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.1
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]},NA:0b}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:60,MaxH:60,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesEnded\",UID1:\"forestry.speciesEnded\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanLonger\",UID1:\"forestry.lifespanLonger\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersEnd\",UID1:\"forestry.flowersEnd\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryLarge\",UID1:\"forestry.territoryLarge\"},{Slot:12b,UID0:\"forestry.effectMisanthrope\",UID1:\"forestry.effectMisanthrope\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.02
+    }
+  ],
+  "minecraft:clay:0": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.water\",UID1:\"extrabees.species.water\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"extrabees.flower.water\",UID1:\"extrabees.flower.water\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"extrabees.effect.water\",UID1:\"extrabees.effect.water\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.5
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.water\",UID1:\"extrabees.species.water\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"extrabees.flower.water\",UID1:\"extrabees.flower.water\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"extrabees.effect.water\",UID1:\"extrabees.effect.water\"}]},NA:0b}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.water\",UID1:\"extrabees.species.water\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"extrabees.flower.water\",UID1:\"extrabees.flower.water\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"extrabees.effect.water\",UID1:\"extrabees.effect.water\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.05
+    }
+  ],
+  "ore:dirt": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMeadows\",UID1:\"forestry.speciesMeadows\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.1
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMeadows\",UID1:\"forestry.speciesMeadows\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},NA:0b}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesMeadows\",UID1:\"forestry.speciesMeadows\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.02
+    }
+  ],
+  "ore:cobblestone": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.rock\",UID1:\"extrabees.species.rock\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"extrabees.flower.rock\",UID1:\"extrabees.flower.rock\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.1,
+      "fortuneChance": 0.2
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.rock\",UID1:\"extrabees.species.rock\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"extrabees.flower.rock\",UID1:\"extrabees.flower.rock\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},NA:0b}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.02
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.rock\",UID1:\"extrabees.species.rock\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityLow\",UID1:\"forestry.fertilityLow\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:8b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:9b,UID0:\"extrabees.flower.rock\",UID1:\"extrabees.flower.rock\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.01
+    }
+  ],
+  "minecraft:snow:0": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesWintry\",UID1:\"forestry.speciesWintry\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityMaximum\",UID1:\"forestry.fertilityMaximum\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersSnow\",UID1:\"forestry.flowersSnow\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectGlacial\",UID1:\"forestry.effectGlacial\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.1
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesWintry\",UID1:\"forestry.speciesWintry\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityMaximum\",UID1:\"forestry.fertilityMaximum\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersSnow\",UID1:\"forestry.flowersSnow\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectGlacial\",UID1:\"forestry.effectGlacial\"}]},NA:0b}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesWintry\",UID1:\"forestry.speciesWintry\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityMaximum\",UID1:\"forestry.fertilityMaximum\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersSnow\",UID1:\"forestry.flowersSnow\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectGlacial\",UID1:\"forestry.effectGlacial\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.02
+    }
+  ],
+  "minecraft:leaves:3": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.04
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]},NA:0b}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.005
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.001,
+      "fortuneChance": 0.002
+    }
+  ],
+  "exnihilocreatio:block_diorite_crushed:0": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.marble\",UID1:\"extrabees.species.marble\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlow\",UID1:\"forestry.floweringSlow\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.5
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.marble\",UID1:\"extrabees.species.marble\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlow\",UID1:\"forestry.floweringSlow\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},NA:0b}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.marble\",UID1:\"extrabees.species.marble\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlow\",UID1:\"forestry.floweringSlow\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.05
+    }
+  ],
+  "ore:sand": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesModest\",UID1:\"forestry.speciesModest\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceDown1\",UID1:\"forestry.toleranceDown1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersCacti\",UID1:\"forestry.flowersCacti\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.1
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesModest\",UID1:\"forestry.speciesModest\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceDown1\",UID1:\"forestry.toleranceDown1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersCacti\",UID1:\"forestry.flowersCacti\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},NA:0b}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesModest\",UID1:\"forestry.speciesModest\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceBoth1\",UID1:\"forestry.toleranceBoth1\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceDown1\",UID1:\"forestry.toleranceDown1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersCacti\",UID1:\"forestry.flowersCacti\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.02
+    }
+  ],
+  "ore:treeLeaves": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.1,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesForest\",UID1:\"forestry.speciesForest\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityHigh\",UID1:\"forestry.fertilityHigh\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.04
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesForest\",UID1:\"forestry.speciesForest\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityHigh\",UID1:\"forestry.fertilityHigh\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]},NA:0b}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.005
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:20,MaxH:20,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesForest\",UID1:\"forestry.speciesForest\"},{Slot:1b,UID0:\"forestry.speedSlowest\",UID1:\"forestry.speedSlowest\"},{Slot:2b,UID0:\"forestry.lifespanShorter\",UID1:\"forestry.lifespanShorter\"},{Slot:3b,UID0:\"forestry.fertilityHigh\",UID1:\"forestry.fertilityHigh\"},{Slot:4b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersVanilla\",UID1:\"forestry.flowersVanilla\"},{Slot:10b,UID0:\"forestry.floweringSlower\",UID1:\"forestry.floweringSlower\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectNone\",UID1:\"forestry.effectNone\"}]}}"
+      },
+      "chance": 0.001,
+      "fortuneChance": 0.002
+    }
+  ],
+  "exnihilocreatio:block_netherrack_crushed:0": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.basalt\",UID1:\"extrabees.species.basalt\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceDown2\",UID1:\"forestry.toleranceDown2\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersNether\",UID1:\"forestry.flowersNether\"},{Slot:10b,UID0:\"forestry.floweringAverage\",UID1:\"forestry.floweringAverage\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectAggressive\",UID1:\"forestry.effectAggressive\"}]}}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.5
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.basalt\",UID1:\"extrabees.species.basalt\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceDown2\",UID1:\"forestry.toleranceDown2\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersNether\",UID1:\"forestry.flowersNether\"},{Slot:10b,UID0:\"forestry.floweringAverage\",UID1:\"forestry.floweringAverage\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectAggressive\",UID1:\"forestry.effectAggressive\"}]},NA:0b}"
+      },
+      "chance": 0.05,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:40,MaxH:40,Genome:{Chromosomes:[{Slot:0b,UID0:\"extrabees.species.basalt\",UID1:\"extrabees.species.basalt\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanNormal\",UID1:\"forestry.lifespanNormal\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceDown2\",UID1:\"forestry.toleranceDown2\"},{Slot:5b,UID0:\"forestry.boolTrue\",UID1:\"forestry.boolTrue\"},{Slot:6b,UID0:\"forestry.toleranceNone\",UID1:\"forestry.toleranceNone\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersNether\",UID1:\"forestry.flowersNether\"},{Slot:10b,UID0:\"forestry.floweringAverage\",UID1:\"forestry.floweringAverage\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectAggressive\",UID1:\"forestry.effectAggressive\"}]}}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.05
+    }
+  ],
+  "minecraft:leaves:11": [
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.04
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]},NA:0b}"
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.005
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0,
+        "nbt": "{IsAnalyzed:0b,Health:30,MaxH:30,Genome:{Chromosomes:[{Slot:0b,UID0:\"forestry.speciesTropical\",UID1:\"forestry.speciesTropical\"},{Slot:1b,UID0:\"forestry.speedSlower\",UID1:\"forestry.speedSlower\"},{Slot:2b,UID0:\"forestry.lifespanShort\",UID1:\"forestry.lifespanShort\"},{Slot:3b,UID0:\"forestry.fertilityNormal\",UID1:\"forestry.fertilityNormal\"},{Slot:4b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:5b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:6b,UID0:\"forestry.toleranceUp1\",UID1:\"forestry.toleranceUp1\"},{Slot:7b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:8b,UID0:\"forestry.boolFalse\",UID1:\"forestry.boolFalse\"},{Slot:9b,UID0:\"forestry.flowersJungle\",UID1:\"forestry.flowersJungle\"},{Slot:10b,UID0:\"forestry.floweringSlowest\",UID1:\"forestry.floweringSlowest\"},{Slot:11b,UID0:\"forestry.territoryAverage\",UID1:\"forestry.territoryAverage\"},{Slot:12b,UID0:\"forestry.effectMiasmic\",UID1:\"forestry.effectMiasmic\"}]}}"
+      },
+      "chance": 0.001,
+      "fortuneChance": 0.002
+    }
+  ]
+}
