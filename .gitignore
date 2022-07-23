@@ -27,9 +27,13 @@
 !/.minecraft/config/advRocketry
 !/.minecraft/config/AppliedEnergistics2
 !/.minecraft/config/brandon3055
+!/.minecraft/config/customloadingscreen
 !/.minecraft/config/emergingtechnology
+!/.minecraft/config/endercore
+!/.minecraft/config/enderio
 !/.minecraft/config/exnihilocreatio
 !/.minecraft/config/forestry
+!/.minecraft/config/pyrotech
 !/.minecraft/config/smoothfont
 !/.minecraft/config/topography
 
@@ -37,6 +41,7 @@
 !/.minecraft/config/astralsorcery.cfg
 !/.minecraft/config/colouredtooltips.cfg
 !/.minecraft/config/conarm.cfg
+!/.minecraft/config/customloadingscreen_tips.txt
 !/.minecraft/config/embers.cfg
 !/.minecraft/config/immersiveengineering.cfg
 !/.minecraft/config/InGameInfo.xml
@@ -45,6 +50,7 @@
 !/.minecraft/config/loliasm.cfg
 !/.minecraft/config/mekanism.cfg
 !/.minecraft/config/nuclearcraft.cfg
+!/.minecraft/config/openblocks.cfg
 !/.minecraft/config/TAIGA.cfg
 !/.minecraft/config/tconstruct.cfg
 !/.minecraft/config/thaumcraft_world.cfg
