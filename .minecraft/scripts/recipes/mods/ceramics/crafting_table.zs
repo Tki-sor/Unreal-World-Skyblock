@@ -11,4 +11,4 @@ recipes.addShaped(<ceramics:unfired_clay:4>,
 #未烧制的粘土桶
 RecipeUtils.recipeTweak(true, <ceramics:unfired_clay>,
 [[<ore:clayPorcelain>, null, <ore:clayPorcelain>],
-[null, <ore:clayPorcelain>, <ore:clayPorcelain>]]);
+[null, <ore:clayPorcelain>, null]]);
