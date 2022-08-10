@@ -23,13 +23,13 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "galacticraftcore:tile.basic_block_core.ore_aluminum_gc",
-        "galacticraftplanets:tile.asteroids_block.ore_aluminum_asteroids",
-        "galacticraftplanets:tile.venus.venus_ore_aluminum",
-        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+        "libvulpes:material.Aluminum",
+        "thermalfoundation:tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
-        "immersiveengineering:metal:21"
+        "libvulpes:productnugget:9",
+        "magneticraft:nuggets:7",
+        "thermalfoundation:material:196"
       ],
       "bloomYieldMinMax": [
         12,
@@ -43,7 +43,6 @@
     "oreArdite": {
       "slagColor": "e85e17",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.ardite",
         "tconstruct:tile.tconstruct.ore.ardite"
       ],
       "output": [
@@ -61,10 +60,13 @@
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.cobalt",
+        "gregtech:tile.ore_block",
+        "magneticraft:tile.magneticraft.ores_cobalt",
         "tconstruct:tile.tconstruct.ore.cobalt"
       ],
       "output": [
+        "gregtech:meta_nugget:23",
+        "magneticraft:nuggets:4",
         "tconstruct:nuggets:0"
       ],
       "bloomYieldMinMax": [
@@ -80,21 +82,20 @@
       "slagColor": "ffaa1c",
       "langKey": [
         "embers:tile.ore_copper",
-        "exnihilocreatio:item.exnihilocreatio.ore.copper",
         "forestry:tile.for.resources.copper",
-        "galacticraftcore:tile.basic_block_core.ore_copper_gc",
-        "galacticraftcore:tile.basic_block_moon.coppermoon",
-        "galacticraftplanets:tile.mars.coppermars",
-        "galacticraftplanets:tile.venus.venus_ore_copper",
-        "immersiveengineering:tile.immersiveengineering.ore.copper",
-        "mekanism:tile.OreBlock.CopperOre",
-        "nuclearcraft:tile.nuclearcraft.ore.copper"
+        "gregtech:tile.ore_block",
+        "libvulpes:material.Copper",
+        "magneticraft:tile.magneticraft.ores_copper",
+        "nuclearcraft:tile.nuclearcraft.ore.copper",
+        "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
         "embers:nugget_copper:0",
-        "immersiveengineering:metal:20",
-        "mekanism:nugget:5",
-        "thaumcraft:nugget:1"
+        "gregtech:meta_nugget:25",
+        "libvulpes:productnugget:4",
+        "magneticraft:nuggets:2",
+        "thaumcraft:nugget:1",
+        "thermalfoundation:material:192"
       ],
       "bloomYieldMinMax": [
         12,
@@ -108,7 +109,7 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.gold",
+        "gregtech:tile.ore_block",
         "minecraft:tile.oreGold"
       ],
       "output": [
@@ -123,16 +124,33 @@
         15
       ]
     },
+    "oreIridium": {
+      "slagColor": "d5d4e7",
+      "langKey": [
+        "libvulpes:material.Iridium",
+        "thermalfoundation:tile.thermalfoundation.ore.iridium"
+      ],
+      "output": [
+        "gregtech:meta_nugget:50",
+        "libvulpes:productnugget:10",
+        "thermalfoundation:material:199"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.iron",
-        "galacticraftplanets:tile.asteroids_block.ore_iron_asteroids",
-        "galacticraftplanets:tile.mars.ironmars",
+        "gregtech:tile.ore_block",
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0",
         "thaumcraft:nugget:0"
       ],
@@ -149,15 +167,35 @@
       "slagColor": "95afee",
       "langKey": [
         "embers:tile.ore_lead",
-        "exnihilocreatio:item.exnihilocreatio.ore.lead",
-        "galacticraftplanets:tile.venus.venus_ore_galena",
-        "immersiveengineering:tile.immersiveengineering.ore.lead",
-        "nuclearcraft:tile.nuclearcraft.ore.lead"
+        "gregtech:tile.ore_block",
+        "magneticraft:tile.magneticraft.ores_lead",
+        "nuclearcraft:tile.nuclearcraft.ore.lead",
+        "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
         "embers:nugget_lead:0",
-        "immersiveengineering:metal:22",
-        "thaumcraft:nugget:4"
+        "gregtech:meta_nugget:55",
+        "magneticraft:nuggets:3",
+        "thaumcraft:nugget:4",
+        "thermalfoundation:material:195"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "oreMithril": {
+      "slagColor": "9cf9ff",
+      "langKey": [
+        "thermalfoundation:tile.thermalfoundation.ore.mithril"
+      ],
+      "output": [
+        "magneticraft:nuggets:9",
+        "thermalfoundation:material:200"
       ],
       "bloomYieldMinMax": [
         12,
@@ -171,11 +209,13 @@
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.nickel",
-        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+        "gregtech:tile.ore_block",
+        "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
-        "immersiveengineering:metal:24"
+        "gregtech:meta_nugget:69",
+        "magneticraft:nuggets:10",
+        "thermalfoundation:material:197"
       ],
       "bloomYieldMinMax": [
         12,
@@ -186,14 +226,15 @@
         15
       ]
     },
-    "oreOsmium": {
-      "slagColor": "9babc4",
+    "orePlatinum": {
+      "slagColor": "55f3ff",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.osmium",
-        "mekanism:tile.OreBlock.OsmiumOre"
+        "gregtech:tile.ore_block",
+        "thermalfoundation:tile.thermalfoundation.ore.platinum"
       ],
       "output": [
-        "mekanism:nugget:1"
+        "gregtech:meta_nugget:80",
+        "thermalfoundation:material:198"
       ],
       "bloomYieldMinMax": [
         12,
@@ -208,13 +249,16 @@
       "slagColor": "e8f6fd",
       "langKey": [
         "embers:tile.ore_silver",
-        "exnihilocreatio:item.exnihilocreatio.ore.silver",
-        "immersiveengineering:tile.immersiveengineering.ore.silver"
+        "gregtech:tile.ore_block",
+        "magneticraft:tile.magneticraft.ores_lead",
+        "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
         "embers:nugget_silver:0",
-        "immersiveengineering:metal:23",
-        "thaumcraft:nugget:3"
+        "gregtech:meta_nugget:100",
+        "magneticraft:nuggets:12",
+        "thaumcraft:nugget:3",
+        "thermalfoundation:material:194"
       ],
       "bloomYieldMinMax": [
         12,
@@ -228,18 +272,18 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.tin",
         "forestry:tile.for.resources.tin",
-        "galacticraftcore:tile.basic_block_core.ore_tin_gc",
-        "galacticraftcore:tile.basic_block_moon.tinmoon",
-        "galacticraftplanets:tile.mars.tinmars",
-        "galacticraftplanets:tile.venus.venus_ore_tin",
-        "mekanism:tile.OreBlock.TinOre",
-        "nuclearcraft:tile.nuclearcraft.ore.tin"
+        "gregtech:tile.ore_block",
+        "libvulpes:material.Tin",
+        "nuclearcraft:tile.nuclearcraft.ore.tin",
+        "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
-        "mekanism:nugget:6",
-        "thaumcraft:nugget:2"
+        "gregtech:meta_nugget:112",
+        "libvulpes:productnugget:5",
+        "magneticraft:nuggets:13",
+        "thaumcraft:nugget:2",
+        "thermalfoundation:material:193"
       ],
       "bloomYieldMinMax": [
         12,
@@ -253,12 +297,10 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.uranium",
-        "immersiveengineering:tile.immersiveengineering.ore.uranium",
         "nuclearcraft:tile.nuclearcraft.ore.uranium"
       ],
       "output": [
-        "immersiveengineering:metal:25"
+        "gregtech:meta_nugget:116"
       ],
       "bloomYieldMinMax": [
         12,

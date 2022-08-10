@@ -1,0 +1,1 @@
+furnace.remove(<ceramics:unfired_clay:5>, <exnihilocreatio:item_material:1>);

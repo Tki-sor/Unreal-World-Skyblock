@@ -17,7 +17,7 @@ loliasm.crashscreen.paragraph2.line2=一份报告已经生成，你可以在这�
 loliasm.crashscreen.reportSaveFailed=[保存报告错误,请查看日志]
 
 loliasm.crashscreen.paragraph3.line1=点击"获取链接"按钮在你的浏览器中打开它。
-loliasm.crashscreen.paragraph3.line2=我们建议您将此报告发送给mod的作者以帮助它们修复问题。
+loliasm.crashscreen.paragraph3.line2=十娘建议你将此报告发送给作者以帮助解决此问题。
 loliasm.crashscreen.paragraph3.line3=由于安装了LoliASM，尽管发生了崩溃但是你可以继续游戏。
 loliasm.crashscreen.paragraph3.line4= §c请勿仅提交该界面的截图反馈问题，这对解决问题没有任何帮助！
 

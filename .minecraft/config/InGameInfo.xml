@@ -2,105 +2,83 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>$3FPS$f: </str>
-            <op>
-                <str>gt</str>
+            <str> </str>
+        </line>
+
+        <line>
+            <str>{pingicon} $2{username}$r</str>
+        </line>
+
+        <line>
+            <str>$9FPS: </str>
+            <operation>
+                <str>GT</str>
                 <var>fps</var>
-                <num>60</num>
-                <num>50</num>
-                <num>40</num>
-                <num>30</num>
-                <num>15</num>
+                <num>239</num>
+                <num>119</num>
+                <num>89</num>
+                <num>59</num>
+                <num>39</num>
+                <num>19</num>
                 <num>0</num>
-                <str>$a</str>
-                <str>$b</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str/>
-            </op>
-            <var>fps</var>
-            <str>$7 |$f $2Ent$f: $e{entitiesrendered}$f($6{entitiestotal}$f)</str>
-            <str>$7 |$f $dRAM$f: $e</str>
-            <round>
-                <div>
-                    <var>memused</var>
-                    <num>1073741824</num>
-                </div>
-                <num>1</num>
-            </round>
-            <str>G$f(</str>
-            <op>
-                <str>le</str>
-                <pct>
-                    <var>memused</var>
-                    <var>memtotal</var>
-                </pct>
-                <num>60</num>
-                <num>70</num>
-                <num>80</num>
-                <num>90</num>
-                <num>100</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str />
-            </op>
-            <round>
-                <pct>
-                    <var>memused</var>
-                    <var>memtotal</var>
-                </pct>
-                <num>0</num>
-            </round>
-            <str>%$f)$f</str>
-            <op>
-                <str>gt</str>
-                <pct>
-                    <var>memused</var>
-                    <var>memtotal</var>
-                </pct>
-                <num>92</num>
-                <num>0</num>
-                <str>$c</str>
-                <str />
-            </op>
-            <str>$7 | $bTime$r:</str>
-            <str> $a</str>
-            <var>mctime24</var>
-            <if>
-                <var>daytime</var>
-                <str>$r($eAM$r)</str>
-                <str>$r($ePM$r)</str>
-            </if>
-            <op>
-                <str>gt</str>
-                <var>ping</var>
-                <num>1</num>
-                <num>0</num>
-                <str>$7 |$f $6Ping$f:</str>
-                <str />
-            </op>
-            <op>
-                <str>gt</str>
-                <var>ping</var>
-                <num>500</num>
-                <num>300</num>
-                <num>200</num>
+                <str>$5{fps}</str>
+                <str>$9{fps}</str>
+                <str>$2{fps}</str>
+                <str>$a{fps}</str>
+                <str>$6{fps}</str>
+                <str>$c{fps}</str>
+                <str>$4{fps}</str>
+            </operation>
+
+            <str>$7丨$9Ent:</str>
+            <operation>
+                <str>GT</str>
+                <var>entitiesrendered</var>
                 <num>150</num>
                 <num>100</num>
-                <num>0</num>
-                <str>$4</str>
-                <str>$c</str>
-                <str>$6</str>
-                <str>$e</str>
-                <str>$b</str>
-                <str>$a</str>
-            </op>
-            <str> $7|$f $aSea:</str>
+                <num>75</num>
+                <num>50</num>
+                <num>30</num>
+                <num>20</num>
+                <num>10</num>
+                <num>5</num>
+                <str>$4{entitiesrendered}</str>
+                <str>$c{entitiesrendered}</str>
+                <str>$6{entitiesrendered}</str>
+                <str>$e{entitiesrendered}</str>
+                <str>$9{entitiesrendered}</str>
+                <str>$3{entitiesrendered}</str>
+                <str>$b{entitiesrendered}</str>
+                <str>$a{entitiesrendered}</str>
+                <str>$2{entitiesrendered}</str>
+            </operation>
+                <str>$7(</str>
+            <operation>
+                <str>GT</str>
+                <var>entitiestotal</var>
+                <num>150</num>
+                <num>100</num>
+                <num>75</num>
+                <num>50</num>
+                <num>30</num>
+                <num>20</num>
+                <num>10</num>
+                <num>5</num>
+                <str>$4{entitiestotal}</str>
+                <str>$c{entitiestotal}</str>
+                <str>$6{entitiestotal}</str>
+                <str>$e{entitiestotal}</str>
+                <str>$9{entitiestotal}</str>
+                <str>$3{entitiestotal}</str>
+                <str>$b{entitiestotal}</str>
+                <str>$a{entitiestotal}</str>
+                <str>$2{entitiestotal}</str>
+            </operation>
+            <str>$7)</str>
+            
+            <str>$7丨$9Day:{day}$7丨$9Time:{mctime24}</str>
+
+            <str> $7| $aSea:</str>
             <op>
                 <str>eq</str>
                 <var>sereneseasonscurrentseasonord</var>
@@ -114,12 +92,13 @@
                 <str> $bWI</str>
                 <str> $cError</str>
             </op>
-            <str>$f($e</str>
+            <str>$7($e</str>
             <add>
                 <var>sereneseasonsdayofseason</var>
                 <num>1</num>
             </add>
-            <str> day$f)$f</str>
+            <str>d$7)$f</str>
+
             <str> $7|$3</str>
             <str> LI:</str>
             <str> </str>
@@ -138,7 +117,7 @@
                 <str>$4</str>
             </op>
             <var>light</var>
-            <str>$r(</str>
+            <str>$7(</str>
 
             <op>
                 <str>gt</str>
@@ -155,226 +134,257 @@
                 <str>$4</str>
             </op>
             <var>lightnosun</var>
-            <str>$r)</str>
+            <str>$7)</str>
+        </line>
 
+        <line>
+            <str>$9MSPT: $9$l[</str>
+            <operation>
+                <str>GE</str>
+                <var>mspt</var>
+                    <num>95</num>
+                    <num>90</num>
+                    <num>85</num>
+                    <num>80</num>
+                    <num>75</num>
+                    <num>70</num>
+                    <num>65</num>
+                    <num>60</num>
+                    <num>55</num>
+                    <num>50</num>
+                    <num>45</num>
+                    <num>40</num>
+                    <num>35</num>
+                    <num>30</num>
+                    <num>25</num>
+                    <num>20</num>
+                    <num>15</num>
+                    <num>10</num>
+                    <num>5</num>
+                    <num>0</num>
+                        <str>$4$l$m||||||||||||||||||||$7$l</str>
+                        <str>$c$l$m|||||||||||||||||||$7$l|</str>
+                        <str>$c$l$m||||||||||||||||||$7$l||</str>
+                        <str>$c$l$m|||||||||||||||||$7$l|||</str>
+                        <str>$4$l$m||||||||||||||||$7$l||||</str>
+                        <str>$c$l$m|||||||||||||||$7$l|||||</str>
+                        <str>$c$l$m||||||||||||||$7$l||||||</str>
+                        <str>$c$l$m|||||||||||||$7$l|||||||</str>
+                        <str>$c$l$m||||||||||||$7$l||||||||</str>
+                        <str>$c$l$m|||||||||||$7$l|||||||||</str>
+                        <str>$6$l$m||||||||||$7$l||||||||||</str>
+                        <str>$6$l$m|||||||||$7$l|||||||||||</str>
+                        <str>$6$l$m||||||||$7$l||||||||||||</str>
+                        <str>$e$l$m|||||||$7$l|||||||||||||</str>
+                        <str>$e$l$m||||||$7$l||||||||||||||</str>
+                        <str>$e$l$m|||||$7$l|||||||||||||||</str>
+                        <str>$a$l$m||||$7$l||||||||||||||||</str>
+                        <str>$a$l$m|||$7$l|||||||||||||||||</str>
+                        <str>$2$l$m||$7$l||||||||||||||||||</str>
+                        <str>$2$l$m|$7$l|||||||||||||||||||</str>
+            </operation>
+            <str>$9$l] </str>
+            <operation>
+                <str>GT</str>
+                <var>mspt</var>
+                    <num>75</num>
+                    <num>50</num>
+                    <num>35</num>
+                    <num>20</num>
+                    <num>10</num>
+                    <num>0</num>
+                        <str>$7($4{mspt}ms$7)</str>
+                        <str>$7($c{mspt}ms$7)</str>
+                        <str>$7($6{mspt}ms$7)</str>
+                        <str>$7($e{mspt}ms$7)</str>
+                        <str>$7($a{mspt}ms$7)</str>
+                        <str>$7($2{mspt}ms$7)</str>
+            </operation>
+            <str>$7丨</str>
+            <operation>
+                <str>GE</str>
+                <var>tps</var>
+                    <num>20</num>
+                    <num>19</num>
+                    <num>17</num>
+                    <num>15</num>
+                    <num>13</num>
+                    <num>0</num>
+                        <str>$9TPS:$2{tps}</str>
+                        <str>$9TPS:$a{tps}</str>
+                        <str>$9TPS:$e{tps}</str>
+                        <str>$9TPS:$6{tps}</str>
+                        <str>$9TPS:$c{tps}</str>
+                        <str>$9TPS:$4{tps}</str>
+            </operation>
+        </line>
+
+        <line>
+            <str>$9  RAM : $9$l[</str>
             <op>
-                <str>gt</str>
-                <var>ping</var>
-                <num>1</num>
-                <num>0</num>
-                <str>$7 |$f $6Ping$f:</str>
-                <str/>
-            </op>
-            <op>
-                <str>gt</str>
-                <var>ping</var>
-                <num>500</num>
-                <num>300</num>
-                <num>200</num>
-                <num>150</num>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>5</num>
+                <num>10</num>
+                <num>15</num>
+                <num>20</num>
+                <num>25</num>
+                <num>30</num>
+                <num>35</num>
+                <num>40</num>
+                <num>45</num>
+                <num>50</num>
+                <num>55</num>
+                <num>60</num>
+                <num>65</num>
+                <num>70</num>
+                <num>75</num>
+                <num>80</num>
+                <num>85</num>
+                <num>90</num>
+                <num>95</num>
                 <num>100</num>
-                <num>0</num>
-                <str>$4</str>
-                <str>$c</str>
-                <str>$6</str>
-                <str>$e</str>
-                <str>$b</str>
+                <str>$2$l$m|$7$l|||||||||||||||||||</str>
+                <str>$2$l$m||$7$l||||||||||||||||||</str>
+                <str>$2$l$m|||$7$l|||||||||||||||||</str>
+                <str>$a$l$m||||$7$l||||||||||||||||</str>
+                <str>$a$l$m|||||$7$l|||||||||||||||</str>
+                <str>$a$l$m||||||$7$l||||||||||||||</str>
+                <str>$a$l$m|||||||$7$l|||||||||||||</str>
+                <str>$a$l$m||||||||$7$l||||||||||||</str>
+                <str>$a$l$m|||||||||$7$l|||||||||||</str>
+                <str>$a$l$m||||||||||$7$l||||||||||</str>
+                <str>$a$l$m|||||||||||$7$l|||||||||</str>
+                <str>$a$l$m||||||||||||$7$l||||||||</str>
+                <str>$e$l$m|||||||||||||$7$l|||||||</str>
+                <str>$e$l$m||||||||||||||$7$l||||||</str>
+                <str>$6$l$m|||||||||||||||$7$l|||||</str>
+                <str>$6$l$m||||||||||||||||$7$l||||</str>
+                <str>$c$l$m|||||||||||||||||$7$l|||</str>
+                <str>$c$l$m||||||||||||||||||$7$l||</str>
+                <str>$4$l$m|||||||||||||||||||$7$l|</str>
+                <str>$4$l$m||||||||||||||||||||$7$l</str>
+            </op>
+            <str>$9$l] $7(</str>
+            <op>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
                 <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
             </op>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G $7/ </str>
             <op>
-                <str>gt</str>
+                <str>le</str>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>70</num>
+                <num>85</num>
+                <num>90</num>
+                <num>100</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1073741824</num>
+                </div>
+                <num>1</num>
+            </round>
+            <str>G$7)</str>
+        </line>
+
+        <line>
+            <operation>
+                <str>GE</str>
                 <var>ping</var>
-                <num>1</num>
-                <num>0</num>
-                <str> $e{ping}ms</str>
-                <str/>
-            </op>
-            <str>$r</str>
+                    <num>190</num>
+                    <num>180</num>
+                    <num>170</num>
+                    <num>160</num>
+                    <num>150</num>
+                    <num>140</num>
+                    <num>130</num>
+                    <num>120</num>
+                    <num>110</num>
+                    <num>100</num>
+                    <num>90</num>
+                    <num>80</num>
+                    <num>70</num>
+                    <num>60</num>
+                    <num>50</num>
+                    <num>40</num>
+                    <num>30</num>
+                    <num>20</num>
+                    <num>10</num>
+                    <num>1</num>
+                    <num>0</num>
+                        <str>$9PING  : $9$l[$4$l$m||||||||||||||||||||$7$l$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m|||||||||||||||||||$7$l|$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m||||||||||||||||||$7$l||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m|||||||||||||||||$7$l|||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$4$l$m||||||||||||||||$7$l||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m|||||||||||||||$7$l|||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m||||||||||||||$7$l||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m|||||||||||||$7$l|||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m||||||||||||$7$l||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$c$l$m|||||||||||$7$l|||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$6$l$m||||||||||$7$l||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$6$l$m|||||||||$7$l|||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$6$l$m||||||||$7$l||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$e$l$m|||||||$7$l|||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$e$l$m||||||$7$l||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$e$l$m|||||$7$l|||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$a$l$m||||$7$l||||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$a$l$m|||$7$l|||||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$2$l$m||$7$l||||||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str>$9PING  : $9$l[$2$l$m|$7$l|||||||||||||||||||$9$l] $7($2{ping}$rms$7)</str>
+                        <str></str>
+            </operation>
+        </line>
+
+    </lines>
+
+
+    <lines at="bottomcenter">
+        <line>
+            <str>$5{abrroughdirection} $7丨$cX:{xi} $aY:{yi} $9Z:{zi}</str>
+        </line>
+
+        <line>
+            <str> </str>
         </line>
     </lines>
+
     <lines at="bottomleft">
-        <line>
-            <var>helmeticon</var>
-            <str> </str>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>helmetdamageleft</var>
-                    <var>helmetmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>helmetdamageleft</var>
-                <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-        </line>
-        <line>
-            <var>chestplateicon</var>
-            <str> </str>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>chestplatedamageleft</var>
-                    <var>chestplatemaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>chestplatedamageleft</var>
-                <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-        </line>
-        <line>
-            <var>leggingsicon</var>
-            <str> </str>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>leggingsdamageleft</var>
-                    <var>leggingsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>leggingsdamageleft</var>
-                <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <var>bootsicon</var>
-            <str> </str>
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>bootsdamageleft</var>
-                    <var>bootsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </op>
-            <max>
-                <var>bootsdamageleft</var>
-                <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
-                <str/>
-            </max>
-        </line>
-        <line>
-            <var>offhandicon</var>
-            <str />
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>offhanddamageleft</var>
-                    <var>offhandmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str/>
-            </op>
-            <str></str>
-            <max>
-                <var>offhanddamageleft</var>
-                <num>1</num>
-                <str> {offhanddamageleft}$f / $e{offhandmaxdamage}</str>
-                <if>
-                    <equal>
-                        <var>offhandname</var>
-                        <str></str>
-                    </equal>
-                    <str></str>
-                    <concat>
-                        <str></str>
-                        <str>$f [$e</str>
-                        <var>offhandname</var>
-				        <str>$f] $3</str>
-                        <var>offhandquantity</var>
-                    </concat>
-                </if>
-            </max>
-        </line>
-        <line>
-            <var>mainhandicon</var>
-            <str />
-            <op>
-                <str>ge</str>
-                <pct>
-                    <var>mainhanddamageleft</var>
-                    <var>mainhandmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str />
-            </op>
-            <str></str>
-            <max>
-                <var>mainhanddamageleft</var>
-                <num>1</num>
-                <str> {mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
-                <if>
-                    <equal>
-                        <var>mainhandname</var>
-                        <str></str>
-                    </equal>
-                    <str></str>
-                    <concat>
-                        <str> </str>
-                        <str>$f [$e</str>
-                        <var>mainhandname</var>
-				        <str>$f] $3</str>
-                        <var>mainhandquantity</var>
-                    </concat>
-                </if>
-            </max>
-        </line>
-        <line>
-            <str> </str>
-        </line>
+
     </lines>
+
     <lines at="bottomright">
         <line>
             <str>$f</str>
@@ -933,6 +943,169 @@
                     <str>$f</str>
                 </concat>
                 <str />
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft}$f / $e{helmetmaxdamage} {helmeticon}</str>
+                <str/>
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage} {chestplateicon}</str>
+                <str/>
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage} {leggingsicon}</str>
+                <str/>
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft}$f / $e{bootsmaxdamage} {bootsicon}</str>
+                <str/>
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>mainhanddamageleft</var>
+                    <var>mainhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <str></str>
+            <max>
+                <var>mainhanddamageleft</var>
+                <num>1</num>
+                <str> {mainhanddamageleft}$f / $e{mainhandmaxdamage} {mainhandicon}</str>
+                <if>
+                    <equal>
+                        <str>{mainhandname}</str>
+                        <str></str>
+                    </equal>
+                    <str></str>
+                    <concat>
+                        <str>$3{mainhandquantity}$f [$e{mainhandname}$f] {mainhandicon}</str>
+                    </concat>
+                </if>
+            </max>
+        </line>
+
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>offhanddamageleft</var>
+                    <var>offhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </op>
+            <str></str>
+            <max>
+                <var>offhanddamageleft</var>
+                <num>1</num>
+                <str> {offhanddamageleft}$f / $e{offhandmaxdamage} {offhandicon}</str>
+                <if>
+                    <equal>
+                        <str>{offhandname}</str>
+                        <str></str>
+                    </equal>
+                    <str></str>
+                    <concat>
+                        <str></str>
+                        <str>$3{offhandquantity}$f [$e{offhandname}$f] {offhandicon}</str>
+                    </concat>
+                </if>
             </max>
         </line>
     </lines>
